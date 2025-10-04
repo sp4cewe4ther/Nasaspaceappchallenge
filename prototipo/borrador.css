@@ -1,0 +1,55 @@
+
+h1 {
+  font-size: 3em;
+  color: #ffdd57;
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 5px #f07a2c, 0 0 10px #f0870f, 0 0 20px #e94a00;
+  animation: aparecer 2s ease-out forwards, brillar 2s infinite alternate;
+  opacity: 3;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.4);
+  margin-bottom: 20px;
+}
+
+body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: url(https://i.makeagif.com/media/9-08-2016/h1XKAq.gif) center center fixed;
+      background-size: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+
+    .enter-button {
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: #eb891a;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .enter-button:hover {
+      background-color: #eb1111;
+    }

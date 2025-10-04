@@ -1,0 +1,253 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 0;
+  background: url(https://i.pinimg.com/originals/55/57/e6/5557e6ff1f5a393d76dc75af6c39fd47.gif);
+  background-size: cover;
+  background-position: center;
+  
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+   font-size: 3em;
+  color: #dd742e;
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 5px #f76605, 0 0 10px #ff5e00, 0 0 20px #ff1f01;
+  animation: aparecer 2s ease-out forwards, brillar 2s infinite alternate;
+  opacity: 3;
+  margin-bottom: 10px;
+  text-align: center;
+}
+p {
+  margin: 0.4em 0;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #c4c7e7;
+  color: #361b35;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5dc6e0;
+}
+.narrador-con-imagen {
+  display: flex;
+  align-items: center;
+  background-color: #f7c79b;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.narrador-con-imagen .texto {
+  flex: 1;  
+  text-align: left;
+}
+.narrador-con-imagen .imagen {
+  margin-left: 10px; 
+}
+.narrador-con-imagen .imagen img {
+  max-width: 150px; 
+  height: auto;
+  border-radius: 8px;
+}
+
+.donpablo .imagen2 img {
+  max-width: 250px; 
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+.donpablo .imagen2 {
+  flex: 0 0 250px;
+  margin-left: 20px; 
+}
+.donpablo .texto2 {
+  flex: 1;  
+  text-align: justify;
+}
+.donpablo {
+  display: flex;
+  align-items: center;
+  background-color: #c6e6d6;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.vueloclimatico .imagen3 img {
+  max-width: 200px; 
+  height: aunto;
+  display: block;
+  border-radius: 8px;
+
+}
+.vueloclimatico .imagen3 {
+  flex: 0 0 200px;
+  margin-right: 20px; 
+}
+.vueloclimatico .texto3 {
+  flex: 1;  
+  text-align: left;
+}
+.vueloclimatico {
+  display: flex;
+  align-items: flex-start;
+  background-color: #bdcfeb;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.astronauta.imagen4 img {
+  max-width: 250px; 
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+.astronauta.imagen4 {
+  flex: 0 0 250px;
+  margin-right: 20px; 
+}
+.astronauta .texto4 {
+  flex: 1;  
+  text-align: left;
+}
+.astronauta {
+  display: flex;
+  align-items: center;
+  background-color: #6258bb;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.operadores .imagen5 img {
+  max-width: 300px; 
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+.operadores .imagen5 {
+  flex: 0 0 300px;
+  margin-left: 30px; 
+}
+.operadores .texto5 {
+  flex: 1;  
+  text-align: justify;
+}
+.operadores {
+  display: flex;
+  align-items: center;
+  background-color: #f08d66;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.estefany .imagen6 img {
+  max-width: 300px; 
+  height: auto;
+  display: block;
+  border-radius: 8px;
+
+}
+.estefany .imagen6 {
+  flex: 0 0 300px;
+  margin-left: 30px; 
+}
+.estefany .texto6 {
+  flex: 1;  
+  text-align: justify;
+}
+.estefany {
+  display: flex;
+  align-items: center;
+  background-color: #c79cdb;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.agradecimiento {
+  display: flex;
+  align-items: flex-start;
+  background-color: #6a72dd;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.texto-agradecimiento p {
+  font-size: 1.2em;
+  color: #000000;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.agradecimiento .imagen7 img {
+  max-width: 250px; 
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+.agradecimiento .imagen7 {
+  flex: 0 0 250px;
+  margin-right: 20px; 
+}
+
+@media screen and (max-width: 600px) {
+  .narrador-con-imagen,
+  .donpablo,
+  .vueloclimatico,
+  .astronauta,
+  .operadores,
+  .estefany, 
+  .agradecimiento {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .narrador-con-imagen .imagen,
+  .donpablo .imagen2,
+  .vueloclimatico .imagen3,
+  .astronauta .imagen4,
+  .operadores .imagen5,
+  .estefany .imagen6,
+  .agradecimiento .imagen7 {
+    margin: 10px 0;
+  }
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+}
